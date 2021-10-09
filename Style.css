@@ -382,7 +382,7 @@ body label {
     display: grid;
     grid-template-columns: 3fr 2fr;
     grid-template-rows: 1fr;
-    background-image: src:"images/BG\ CSS.png";
+    background-image: url(images/BG\ CSS.png);
     background-size: contain;
     width: 100%;
     height: 100vh;
