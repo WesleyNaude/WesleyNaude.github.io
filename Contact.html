@@ -59,6 +59,8 @@
         </div>
         <section class="flexContainer">
    <div class="contactWrapper">
+       <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+           <fieldset id="fs-frm-inputs">
                 <div class="nestedBox">
                     <div class="nested">
                         <div class="box1"><label>Name</label></div>
@@ -66,14 +68,16 @@
                     </div>
                     <div class="nested2">
                         <div class="box3"><label>Email Address</label></div>
-                        <div class="box4"><input type="text" required></div>
+                        <div class="box4"><input type="email" required></div>
                     </div>
                 </div>
                 <div class="box5"><label>Subject</label></div>
                 <div class="Box6"><input type="text" required></div>
                 <div class="box7"><label>Message</label></div>
                 <div class="box8"><input type="text" required></div>
-                <a><button class="submitButton" > <i class="fas fa-paper-plane" style="margin-right: 10px;"></i>Submit</button></a>
+               <fieldset id="fs-frm-inputs">
+                <a><button class="submitButton" type="submit" value="Submit" > <i class="fas fa-paper-plane" style="margin-right: 10px;"></i>Submit</button></a>
+           </form>
           </div>
           <img class="imageFlex" src="Images/bw side.jpg">
         </section>
