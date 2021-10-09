@@ -968,6 +968,7 @@ body label {
 }
 
 #fs-frm-inputs {
+border:none;
 outline:none;
 }
 .contactWrapper input {
