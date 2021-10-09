@@ -970,6 +970,8 @@ body label {
 #fs-frm-inputs {
 border:none;
 outline:none;
+padding:0;
+margin:0;
 }
 .contactWrapper input {
     background-color: transparent;
