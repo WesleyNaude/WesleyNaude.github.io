@@ -64,18 +64,20 @@
                 <div class="nestedBox">
                     <div class="nested">
                         <div class="box1"><label>Name</label></div>
-                        <div class="box2"><input type="text" required></div>
+                        <div class="box2"><input type="text" name="name" id="full-name" required></div>
                     </div>
                     <div class="nested2">
                         <div class="box3"><label>Email Address</label></div>
-                        <div class="box4"><input type="email" required></div>
+                        <div class="box4"><input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required></div>
                     </div>
                 </div>
                 <div class="box5"><label>Subject</label></div>
                 <div class="Box6"><input type="text" required></div>
                 <div class="box7"><label>Message</label></div>
-                <div class="box8"><input type="text" required></div>
-               <fieldset id="fs-frm-inputs">
+                <div class="box8"><input type="text" name="message" id="message" required></div>
+               <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+               
+               </fieldset>
                 <a><button class="submitButton" type="submit" value="Submit" > <i class="fas fa-paper-plane" style="margin-right: 10px;"></i>Submit</button></a>
            </form>
           </div>
