@@ -551,7 +551,7 @@ body label {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
-        background-image: url(images/BG\ CSS.png);
+        background-image: url(Images/BG\ CSS.png);
         background-size: contain;
         width: 100%;
         height: 100vh;
@@ -622,7 +622,7 @@ body label {
     .landingPage_1 {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        background-image: url(images/BG\ CSS.png);
+        background-image: url(Images/BG\ CSS.png);
         background-size: contain;
         width: 100%;
         height: 100vh;
@@ -653,7 +653,7 @@ body label {
         justify-content: center;
         width: 70%;
         height: 70%;
-        background-image: url(images/Colour\ picture.jpg);
+        background-image: url(Images/Colour\ picture.jpg);
         background-size: contain;
         background-repeat: no-repeat;
     }
@@ -677,7 +677,7 @@ body label {
     .landingPage_1 {
         display: flex;
         flex-direction: column;
-        background-image: url(images/BG\ CSS.png);
+        background-image: url(Images/BG\ CSS.png);
         background-size: cover;
         width: 100%;
         height: 100vh;
@@ -700,7 +700,7 @@ body label {
         justify-content: center;
         width: 70%;
         height: 70%;
-        background-image: url(images/Colour\ picture.jpg);
+        background-image: url(Images/Colour\ picture.jpg);
         background-size: contain;
         background-repeat: no-repeat;
     }
@@ -802,7 +802,7 @@ body label {
         .landingPage_1 {
             display: flex;
             flex-direction: column;
-            background-image: url(images/BG\ CSS.png);
+            background-image: url(Images/BG\ CSS.png);
             background-size: cover;
             width: 100%;
             height: 100vh;}
@@ -922,7 +922,7 @@ body label {
 /*Contact Page*/
 
 .contactPage {
-    background-image: url(images/BG\ CSS.png);
+    background-image: url(Images/BG\ CSS.png);
     background-size: contain;
     width: 100%;
     height: 100vh;
@@ -1254,7 +1254,7 @@ body label {
     height: 100vh;
     grid-template-columns: 1fr 1fr ;
     grid-template-rows:  1fr 2fr;
-    background-image: url(images/BG\ CSS.png);
+    background-image: url(Images/BG\ CSS.png);
     background-size: contain;
 }
 
@@ -1283,7 +1283,7 @@ body label {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-image: url(images/Self\ bw.jpg);
+    background-image: url(Images/Self\ bw.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -1358,7 +1358,7 @@ body label {
     .aboutContainer {
         grid-template-columns: 1fr;
         grid-template-rows:  1fr 4fr 2fr;
-        background-image: url(images/BG\ CSS.png);
+        background-image: url(Images/BG\ CSS.png);
         background-size: contain;
     }
 
@@ -1387,7 +1387,7 @@ body label {
     width: 100%;
     height:100vh;
     background-color: #0D0D0D;
-    background-image: url(images/BG\ CSS.png);
+    background-image: url(Images/BG\ CSS.png);
     background-size: contain;
 }
 
@@ -1676,7 +1676,7 @@ body label {
 .projectPage2 {
     width: 100%;
     height: fit-content;
-    background-image: url(images/BG\ CSS.png);
+    background-image: url(Images/BG\ CSS.png);
     background-size: contain;
     display: flex;
     flex-direction: row;
@@ -1762,7 +1762,7 @@ body label {
     grid-template-rows: 1fr 2fr 2fr;
     width: 100%;
     height: 100vh;
-    background-image: url(images/BG\ CSS.png);
+    background-image: url(Images/BG\ CSS.png);
     background-size: contain;
     background-color: #0D0D0D;
     grid-gap: 1rem;
@@ -1847,7 +1847,7 @@ body label {
         grid-template-rows: 1fr 2fr 2fr 2fr;
         width: 100%;
         height: fit-content;
-        background-image: url(images/BG\ CSS.png);
+        background-image: url(Images/BG\ CSS.png);
         background-size: contain;
         background-color: #0D0D0D;
         grid-gap: 1rem;
@@ -1877,7 +1877,7 @@ body label {
 /*Project Page 4 - Character Design Page*/
 
 .project4_Page {
-    background-image: url(images/BG\ CSS.png);
+    background-image: url(Images/BG\ CSS.png);
     background-size: contain;
     width: 100%;
     height: 100vh;
@@ -1898,42 +1898,42 @@ body label {
 }
 
 .p4Flex1 {
-    background-image: url(images/Character\ Design\ 1.jpg);
+    background-image: url(Images/Character\ Design\ 1.jpg);
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .p4Flex2 {
-    background-image: url(images/Character\ Design\ 4.jpg);
+    background-image: url(Images/Character\ Design\ 4.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .p4Flex3 {
-    background-image: url(images/Character\ Design\ 3.jpg);
+    background-image: url(Images/Character\ Design\ 3.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .p4Flex4 {
-    background-image: url(images/Character\ Design\ 2.jpg);
+    background-image: url(Images/Character\ Design\ 2.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .p4Flex5 {
-    background-image: url(images/Character\ Design\ 5.jpg);
+    background-image: url(Images/Character\ Design\ 5.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .p4Flex6 {
-    background-image: url(images/Character\ Design\ 6.jpg);
+    background-image: url(Images/Character\ Design\ 6.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -1949,7 +1949,7 @@ body label {
 /*project5 Page - Illustration*/
 
 .project5_Page {
-    background-image: url(images/BG\ CSS.png);
+    background-image: url(Images/BG\ CSS.png);
     background-size: contain;
     background-color: #0D0D0D;
     width: 100%;
@@ -1977,13 +1977,13 @@ body label {
 }
 
 .illustration1 {
-    background-image: url(images/Illustration2.jpg);
+    background-image: url(Images/Illustration2.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .illustration2 {
-    background-image: url(images/Illustration3.jpg);
+    background-image: url(Images/Illustration3.jpg);
     background-size: contain;
     background-repeat: no-repeat;
    
@@ -2056,13 +2056,13 @@ body label {
     }
 
     .illustration1 {
-        background-image: url(images/Illustration2.jpg);
+        background-image: url(Images/Illustration2.jpg);
         background-size: contain;
         background-repeat: no-repeat;
     }
     
     .illustration2 {
-        background-image: url(images/Illustration3.jpg);
+        background-image: url(Images/Illustration3.jpg);
         background-size: contain;
         background-repeat: no-repeat;
         margin-top: -20%;
