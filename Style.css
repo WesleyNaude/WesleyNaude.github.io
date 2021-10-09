@@ -967,6 +967,10 @@ body label {
     margin-top: 4%;
 }
 
+fieldset {
+  border: none;
+  padding: 0;
+}
 .contactWrapper input {
     background-color: transparent;
     border: solid white;
