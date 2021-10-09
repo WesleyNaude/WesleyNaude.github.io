@@ -412,7 +412,7 @@ body label {
     align-items: center;
     width: 70%;
     height: 70%;
-    background-image: url(images/Colour\ picture.jpg);
+    background-image: url(Images/Colour\ picture.jpg);
     background-size:contain;
     background-repeat: no-repeat;
 }
@@ -470,7 +470,7 @@ body label {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    background-image: url(images/BG\ CSS.png);
+    background-image: url(Images/BG\ CSS.png);
     background-size: contain;
 } 
 
