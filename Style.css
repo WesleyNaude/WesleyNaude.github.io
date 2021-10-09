@@ -967,9 +967,8 @@ body label {
     margin-top: 4%;
 }
 
-.fieldset {
-  border: none;
-  padding: 0;
+#fs-frm-inputs {
+border:none;
 }
 .contactWrapper input {
     background-color: transparent;
