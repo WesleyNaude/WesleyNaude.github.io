@@ -947,7 +947,9 @@ body label {
 
 /*Contact Page */
 
-
+.box1, .box2, .box3, .box4, .box5, .Box6, .box6, .box7, .box8 {
+    margin-bottom: 10px;
+}
 
 .flexContainer {
     width: 100%;
@@ -998,7 +1000,6 @@ margin:0;
 .box8 {
     display: grid;
     grid-auto-rows: minmax(151px,auto);
-    margin-bottom:10px;
 }
 
 .nestedBox {
@@ -1010,14 +1011,12 @@ margin:0;
 .box4 {
     display: grid;
     grid-auto-columns: 401px;
-    marginbox-bottom:10px;
 }
 
 .submitButton {
     width: 260px;
     height: 67px;
     border: none;
-    margin-top:10px;
 }
 
 .submitButton:hover {
