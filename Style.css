@@ -967,7 +967,7 @@ body label {
     margin-top: 4%;
 }
 
-fieldset {
+.fieldset {
   border: none;
   padding: 0;
 }
