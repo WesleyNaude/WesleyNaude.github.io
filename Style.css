@@ -991,7 +991,7 @@ margin:0;
     grid-template-rows: 6;
     margin-left: 89px;
     margin-top: 45px;
-    grid-row-gap: 30px ;
+    grid-row-gap: 10px ;
     width: 50%;
 }
 
@@ -1015,6 +1015,7 @@ margin:0;
     width: 260px;
     height: 67px;
     border: none;
+    margin-top:10px;
 }
 
 .submitButton:hover {
