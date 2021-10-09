@@ -58,23 +58,18 @@
             </div>
         </div>
         <section class="flexContainer">
-            <div class="contactWrapper">
-                <div class="nestedBox">
-                    <div class="nested">
-                        <div class="box1"><label>Name</label></div>
-                        <div class="box2"><input type="text" required></div>
-                    </div>
-                    <div class="nested2">
-                        <div class="box3"><label>Email Address</label></div>
-                        <div class="box4"><input type="text" required></div>
-                    </div>
-                </div>
-                <div class="box5"><label>Subject</label></div>
-                <div class="Box6"><input type="text" required></div>
-                <div class="box7"><label>Message</label></div>
-                <div class="box8"><input type="text" required></div>
-                <a class="mailto" href="mailto:wesjokey@gmail.com"><button class="submitButton" > <i class="fas fa-paper-plane" style="margin-right: 10px;"></i>Submit</button></a>
-          </div>
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">Full Name</label>
+    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+    <label for="email-address">Email Address</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+    <label for="message">Message</label>
+    <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+  </fieldset>
+  <input type="submit" value="Submit">
+</form>
           <img class="imageFlex" src="Images/bw side.jpg">
         </section>
     </section>
