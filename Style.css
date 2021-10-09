@@ -998,6 +998,7 @@ margin:0;
 .box8 {
     display: grid;
     grid-auto-rows: minmax(151px,auto);
+    margin-bottom:10px;
 }
 
 .nestedBox {
@@ -1009,6 +1010,7 @@ margin:0;
 .box4 {
     display: grid;
     grid-auto-columns: 401px;
+    marginbox-bottom:10px;
 }
 
 .submitButton {
