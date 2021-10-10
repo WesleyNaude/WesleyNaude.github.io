@@ -853,6 +853,18 @@ body label {
 
       
 }
+
+@media screen and (max-width: 320px) {
+    .landingPage_1_Heading {
+        font-size: 50px;
+        margin-top: 0px;
+        line-height: 60px;
+    }
+
+    .landingPage_1 {
+        padding-top: 60px;
+    }
+}
 /*Mobile Landscape*/
 
 @media (max-height:500px) {
