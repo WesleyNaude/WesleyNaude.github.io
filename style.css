@@ -186,7 +186,11 @@ p {
 }
 
 
+
 /*Landing page*/
+#download-button{
+    margin-left: 30px;
+}
 
 .landingpage-button-container {
     display: flex;
@@ -249,6 +253,7 @@ p {
     width: 100%;
     height: auto;
     padding: 99px 8% 0 8%;
+    overflow: hidden;
 }
 
 .landingPage_intro {
@@ -275,7 +280,7 @@ p {
     margin-top: 60px;
     width: 459px;
     height: 688px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   
     overflow: hidden;
 
 }
@@ -297,7 +302,6 @@ p {
     .image-self {
         width: 459px;
         height: 688px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         overflow: hidden;
         margin-top: 60px;
 
@@ -325,6 +329,7 @@ p {
     .image-self-container {
         display: flex;
         justify-content: center;
+        width: 100%;
 
     }
 
@@ -355,12 +360,48 @@ p {
     .navigtaionbar_page_links {
         display: none;
     }
+
+    
 }
 
 @media screen and (max-width:720px){
     .landingPage {
-        padding: 0 15px 0 15px ;
+        padding: 64px 15px 0 15px ;
     }
+
+    h1 {
+        font-size: 56px;
+        line-height: 125%;
+    }
+
+    .landing-page-content-container {
+        margin-top: 30px;
+    }
+
+    .landingPage_intro {
+        width: 100%;
+    }
+
+    #download-button{
+        margin-left: 12px;
+    }
+
+    .navigationBar {
+        padding: 0 15px 0 15px;
+    }
+
+    .image-self-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+    }
+
+    
+
+
+
+   
 }
 
 /* Case studies section*/
@@ -373,10 +414,15 @@ p {
     width: 100%;
     min-height: 526px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin: 60px 0 30px 0;
 }
 
+.case-study1{
+    margin: 60px 0 0 0;
+}
 
+.case-study2,.case-study3,.case-study4 {
+    margin: 60px 0 0 0 ;
+}
 .case-study-content-conatainer {
     padding: 0 0 0 94px;
 }
@@ -447,9 +493,6 @@ p {
         font-size: 26px;
     }
 
-    p{
-        font-size: 12px;
-    }
 
     .case-study1,
     .case-study3,
@@ -493,6 +536,14 @@ p {
     .case-study-3-textbox,
     .case-study-4-textbox {
         max-width: 300px;
+    }
+
+    .case-study1{
+        margin: 60px 0 0 0;
+    }
+    
+    .case-study2,.case-study3,.case-study4 {
+        margin: 30px 0 0 0 ;
     }
 
 }
@@ -674,11 +725,12 @@ p {
         width: 100%;
         margin-top: 30px;
     }
-}
+
 
 h2 {
     font-size: 22px;
     font-weight: 700;
+}
 }
 
 
