@@ -191,24 +191,25 @@ p {
 
 @media screen and (max-width:600px) {
 
-.logo1, .logo_bold {
-    font-size: 14px;
-}
+    .logo1,
+    .logo_bold {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width:1192px) {
-h4 {
-    font-size: 30px;
-}
+    h4 {
+        font-size: 30px;
+    }
 
-h2 {
-    font-size: 26px;
-}
+    h2 {
+        font-size: 26px;
+    }
 }
 
 
 /*Landing page*/
-#download-button{
+#download-button {
     margin-left: 30px;
 }
 
@@ -304,13 +305,13 @@ h2 {
     justify-content: flex-end;
     padding-top: 60px;
     align-items: flex-start;
-    
+
 
 }
 
 .image-self {
-   width: 80%;
-   height: 80%;
+    width: 80%;
+    height: 80%;
     background-image: url(Images/20210329113256_IMG_4779.jpg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -340,9 +341,10 @@ h2 {
 
 @media screen and (max-width:1180px) {
 
-    .image-self-container{
+    .image-self-container {
         height: 100%;
     }
+
     .navigationBar {
         height: 64px;
     }
@@ -359,37 +361,37 @@ h2 {
 
     .navigtaionbar_page_links {
         display: none;
-    }   
+    }
 
 
     .image-self {
-        width:100%;
+        width: 100%;
         height: 100%;
-    
+
         background-position: center;
-     }
+    }
 
 
-     .landing-page-1 {
+    .landing-page-1 {
         width: 100%;
         height: 100%;
         display: grid;
         grid-template-columns: unset;
         grid-column-gap: unset;
         grid-template-rows: 1fr 1fr;
-    
+
     }
 
     .landingPage {
         padding: 64px 5% 0 5%;
     }
-   
+
 }
 
 
-@media screen and (max-width:600px){
+@media screen and (max-width:600px) {
     .landingPage {
-        padding: 64px 15px 0 15px ;
+        padding: 64px 15px 0 15px;
     }
 
     h1 {
@@ -405,9 +407,9 @@ h2 {
         width: 100%;
     }
 
-    #download-button{
-      display: none;
-        
+    #download-button {
+        display: none;
+
     }
 
     .navigationBar {
@@ -421,16 +423,19 @@ h2 {
 
     }
 
-    
 
 
 
-   
+
+
 }
 
 /* Case studies section*/
 
-.case-study1, .case-study2, .case-study3, .case-study4 {
+.case-study1,
+.case-study2,
+.case-study3,
+.case-study4 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 30px;
@@ -441,12 +446,14 @@ h2 {
     padding: 60px 30px 60px 94px;
 }
 
-.case-study1{
+.case-study1 {
     margin: 60px 0 0 0;
 }
 
-.case-study2,.case-study3,.case-study4 {
-    margin: 60px 0 0 0 ;
+.case-study2,
+.case-study3,
+.case-study4 {
+    margin: 60px 0 0 0;
 }
 
 .case-study-1-textbox {
@@ -476,41 +483,41 @@ h2 {
 
 
 
-.case-study-image-container{
+.case-study-image-container {
     width: 100%;
     height: 100%;
     background-image: url(Images/smartphone-mockup-floating\ 1.svg);
-    background-size:contain;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 
 }
 
-.case-study-image2-container{
+.case-study-image2-container {
     width: 100%;
     height: 100%;
     background-image: url(Images/mockuuups-front-view-mockup-of-macbook-pro.svg);
-    background-size:contain;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 
 }
 
-.case-study-image3-container{
+.case-study-image3-container {
     width: 100%;
     height: 100%;
     background-image: url(Images/MacBook\ Pro\ 16\ inch\ 1.svg);
-    background-size:contain;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 
 }
 
-.case-study-image4-container{
+.case-study-image4-container {
     width: 100%;
     height: 100%;
     background-image: url(Images/iPhone\ 13\ Pro\ Max\ 1.svg);
-    background-size:contain;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 
@@ -520,7 +527,7 @@ h2 {
 /*Tablets*/
 
 @media screen and (max-width:1192px) {
-   
+
 
     .case-study-1-textbox,
     .case-study-2-textbox,
@@ -533,10 +540,10 @@ h2 {
     .case-study3,
     .case-study2,
     .case-study4 {
-       padding: 60px 30px 60px 42px;
+        padding: 60px 30px 60px 42px;
     }
 
-    .case-study-section{
+    .case-study-section {
         margin-top: 120px;
     }
 
@@ -553,14 +560,14 @@ h2 {
     .case-study2,
     .case-study4 {
         width: 100%;
-       display: grid;
-       grid-template-columns: unset;
-       grid-template-rows: 1fr 2fr;
-       padding: 30px 30px 60px 30px;
-       overflow: hidden;
-       align-items: flex-end;
-       
-    
+        display: grid;
+        grid-template-columns: unset;
+        grid-template-rows: 1fr 2fr;
+        padding: 30px 30px 60px 30px;
+        overflow: hidden;
+        align-items: flex-end;
+
+
     }
 
     #case-study-2-order:nth-of-type(1),
@@ -572,7 +579,7 @@ h2 {
 
 
 
-    .case-study-content-conatainer{
+    .case-study-content-conatainer {
         margin: 0;
         padding: 0;
     }
@@ -582,15 +589,18 @@ h2 {
     .case-study-3-textbox,
     .case-study-4-textbox {
         max-width: 300px;
-        
+
     }
 
-    
-    .case-study1,.case-study2,.case-study3,.case-study4 {
-        margin: 30px 0 0 0 ;
+
+    .case-study1,
+    .case-study2,
+    .case-study3,
+    .case-study4 {
+        margin: 30px 0 0 0;
     }
 
-   
+
 }
 
 /*Services section*/
@@ -635,7 +645,7 @@ h2 {
     margin: 0px 0 60px 0;
 }
 
-#section-2{
+#section-2 {
     margin-bottom: 60px;
 }
 
@@ -645,8 +655,8 @@ h2 {
     .services-container {
         grid-template-columns: 1fr;
         grid-row-gap: 60px;
-        grid-auto-rows:auto (1fr 1fr 1fr);
-        
+        grid-auto-rows: auto (1fr 1fr 1fr);
+
 
     }
 
@@ -779,10 +789,10 @@ h2 {
     }
 
 
-h2 {
-    font-size: 22px;
-    font-weight: 700;
-}
+    h2 {
+        font-size: 22px;
+        font-weight: 700;
+    }
 }
 
 
