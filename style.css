@@ -190,6 +190,10 @@ p {
     .primary-Button {
     padding: 9px 10px 9px 10px;
 }
+
+.logo1, .logo_bold {
+    font-size: 14px;
+}
 }
 
 
@@ -387,7 +391,8 @@ p {
     }
 
     #download-button{
-        margin-left: 12px;
+      display: none;
+        
     }
 
     .navigationBar {
@@ -613,7 +618,11 @@ p {
     display: flex;
     justify-content: center;
     height: 128px;
-    margin: 60px 0 60px 0;
+    margin: 0px 0 60px 0;
+}
+
+#services-image-container{
+    margin-top: 60px;
 }
 
 /*Tablets*/
@@ -635,6 +644,7 @@ p {
     .services-ux-design-container {
         display: flex;
         justify-content: center;
+        align-items: flex-start;
     }
 
 }
@@ -666,6 +676,10 @@ p {
         margin-top: 60px;
         grid-column-gap: 120px;
         grid-row-gap: 30px;
+    }
+
+    .benefits-ux-design {
+        margin-top: 0px;
     }
 }
 
