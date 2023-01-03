@@ -113,6 +113,11 @@ p {
     background-color: #fff;
 }
 
+
+#hamburger-icon{
+    display: none;
+}
+
 .navigtaionbar_page_links {
     display: flex;
     align-items: center;
@@ -187,9 +192,6 @@ p {
 
 
 @media screen and (max-width:600px) {
-    .primary-Button {
-    padding: 9px 10px 9px 10px;
-}
 
 .logo1, .logo_bold {
     font-size: 14px;
@@ -360,6 +362,10 @@ h2 {
     .navigtaionbar_page_links {
         display: none;
     }   
+
+    #hamburger-icon{
+        display: block;
+    }
     
     .image-self {
         width:100%;
@@ -377,6 +383,10 @@ h2 {
         grid-column-gap: unset;
         grid-template-rows: 1fr 1fr;
     
+    }
+
+    .landingPage {
+        padding: 64px 5% 0 5%;
     }
    
 }
@@ -580,11 +590,8 @@ h2 {
         
     }
 
-    .case-study1{
-        margin: 30px 0 0 0;
-    }
     
-    .case-study2,.case-study3,.case-study4 {
+    .case-study1,.case-study2,.case-study3,.case-study4 {
         margin: 30px 0 0 0 ;
     }
 
@@ -633,8 +640,8 @@ h2 {
     margin: 0px 0 60px 0;
 }
 
-#services-image-container{
-    margin-top: 60px;
+#section-2{
+    margin-bottom: 60px;
 }
 
 /*Tablets*/
@@ -642,8 +649,9 @@ h2 {
 @media screen and (max-width:1192px) {
     .services-container {
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(3, 1fr);
         grid-row-gap: 60px;
+        grid-auto-rows:auto (1fr 1fr 1fr);
+        
 
     }
 
@@ -690,9 +698,6 @@ h2 {
         grid-row-gap: 30px;
     }
 
-    .benefits-ux-design {
-        margin-top: 0px;
-    }
 }
 
 @media screen and (max-width:720px) {
