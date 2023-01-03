@@ -93,6 +93,7 @@ p {
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
     line-height: 21px;
+    cursor: pointer;
 }
 
 .logo_bold {
