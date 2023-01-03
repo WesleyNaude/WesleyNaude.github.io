@@ -186,6 +186,12 @@ p {
 }
 
 
+@media screen and (max-width:600px) {
+    .primary-Button {
+    padding: 9px 10px 9px 10px;
+}
+}
+
 
 /*Landing page*/
 #download-button{
@@ -362,13 +368,13 @@ p {
 }
 
 
-@media screen and (max-width:720px){
+@media screen and (max-width:600px){
     .landingPage {
         padding: 64px 15px 0 15px ;
     }
 
     h1 {
-        font-size: 56px;
+        font-size: 46px;
         line-height: 125%;
     }
 
