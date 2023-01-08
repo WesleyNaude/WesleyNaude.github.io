@@ -19,7 +19,7 @@
 
     <section class="case-study-slideshow" id="case-study-slideshow">
         <nav class="case-study-navigation-bar">
-            <button class="tertiary-button" id="close-button" onclick="closecasestudy()"><span class="material-icons" id="close-button-icon">
+            <button class="tertiary-button" id="scroll" data-link="TravelChap" onclick="closecasestudy()" style="color: #fff;"><span class="material-icons" id="close-button-icon">
                 close
                 </span> Close</button>               
         </nav>
@@ -132,12 +132,12 @@
             <h2 id="section-1">Featured projects</h2>
             <div class="case-study1" style="background-color: #497BA8;">
                 <div class="case-study-content-conatainer" id="case-study-1-order">
-                    <h4 style="color: #fff; margin-bottom: 30px;">TravelChap</h4>
+                    <h4 style="color: #fff; margin-bottom: 30px;" id="TravelChap">TravelChap</h4>
                     <p class="case-study-1-textbox">TravelChap is a digital tool designed to help
                         expose women to new experiences by making
                         it possible for them to easily travel anywhere in
                         South Africa safely.</p>
-                    <button class="secondary-Button" style="margin-top: 30px;" onclick="myFunction()">
+                    <button class="secondary-Button" style="margin-top: 30px;" onclick="myFunction()" id="scroll_to" data-link="section-0">
                         <span class="material-icons" style="margin-right: 10px;">
                             navigate_next
                         </span>
@@ -462,9 +462,11 @@
         scrollTo.forEach((item) => {
             item.addEventListener("click", () => {
                 const el = document.getElementById(item.getAttribute("data-link"));
-                el.scrollIntoView({ behavior: "smooth", block: "start" })
+                el.scrollIntoView({ behavior: "smooth", block:"center" })
             })
         })
+
+      
 
         //Show case study on button click
         
@@ -473,6 +475,8 @@
             document.getElementById("landingPage").style.position='fixed';
             document.getElementById("case-study-slideshow").style.display='block';
             document.getElementById("footer").style.display='none';
+           
+
             
 
 
@@ -487,10 +491,20 @@
         }
 
 
+      
+
         
     </script>
 
-
+    <script>
+          const test = document.querySelectorAll("#scroll");
+        test.forEach((item) => {
+            item.addEventListener("click", () => {
+                const el = document.getElementById(item.getAttribute("data-link"));
+                el.scrollIntoView({block:"center" })
+            })
+        })
+    </script>
 
 
 
