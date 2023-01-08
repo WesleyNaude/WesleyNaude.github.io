@@ -872,7 +872,9 @@ p {
         height: auto;
         padding: 99px 8% 0 8%;
         overflow: hidden;
-        background-color: #181818;
+        background-color: rgba(24, 24, 24, 0.75);
+       text-align: center;
+       
 }
 
     .case-study-image-container2 img {
@@ -909,6 +911,8 @@ p {
 
 .case-study-slideshow{
     display: none;
+    position: absolute;
+    z-index: 3000;
 }
 
 
@@ -924,3 +928,4 @@ p {
         background-color: rgba(24, 24, 24, 0.50);
     }
 }
+

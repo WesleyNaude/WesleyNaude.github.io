@@ -419,7 +419,7 @@
 
     </section>
 
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="footer-company">
             <h5>Company</h5>
             <br>
@@ -469,14 +469,21 @@
         //Show case study on button click
         
         function myFunction() {
-            document.getElementById("landingPage").style.display = 'none';
+            document.getElementById("landingPage").style.opacity='0.25';
+            document.getElementById("landingPage").style.position='fixed';
             document.getElementById("case-study-slideshow").style.display='block';
+            document.getElementById("footer").style.display='none';
+            
+
 
         }
 
         function closecasestudy(){
             document.getElementById("case-study-slideshow").style.display='none';
             document.getElementById("landingPage").style.display='block';
+            document.getElementById("landingPage").style.position='unset';
+            document.getElementById("landingPage").style.opacity='unset';
+            document.getElementById("footer").style.display='grid';
         }
 
 
