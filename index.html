@@ -120,6 +120,46 @@
         </section>
     </section>
 
+    <section class="case-study-slideshow" id="case-study-slideshow3">
+        <nav class="case-study-navigation-bar">
+            <button class="tertiary-button" id="scroll" data-link="RedDoor" onclick="closecasestudy()" style="color: #fff;"><span class="material-icons" id="close-button-icon">
+                close
+                </span> Close</button>               
+        </nav>
+        <section class="case-study-showcase-container2">
+            <div class="case-study-image-container2">
+                <img src="Images/RedDoor/1.jpg">
+                <img src="Images/RedDoor/2.jpg">
+                <img src="Images/RedDoor/3.jpg">
+                <img src="Images/RedDoor/4.jpg">
+                <img src="Images/RedDoor/5.jpg">
+                <img src="Images/RedDoor/6.jpg">
+                <img src="Images/RedDoor/7.jpg">
+                <img src="Images/RedDoor/8.jpg">
+                <img src="Images/RedDoor/9.jpg">
+                <img src="Images/RedDoor/10.jpg">
+                <img src="Images/RedDoor/11.jpg">
+                <img src="Images/RedDoor/12.jpg">
+                <img src="Images/RedDoor/13.jpg">
+                <img src="Images/RedDoor/14.jpg">
+                <img src="Images/RedDoor/15.jpg">
+                <img src="Images/RedDoor/16.jpg">
+                <img src="Images/RedDoor/17.jpg">
+                <img src="Images/RedDoor/18.jpg">
+                <img src="Images/RedDoor/19.jpg">
+                <img src="Images/RedDoor/20.jpg">
+                <img src="Images/RedDoor/21.jpg">
+                <img src="Images/RedDoor/22.jpg">
+                <img src="Images/RedDoor/23.jpg">
+                <img src="Images/RedDoor/24.jpg">
+                <img src="Images/RedDoor/25.jpg">
+                <img src="Images/RedDoor/26.jpg">
+                <img src="Images/RedDoor/27.jpg">
+            </div>
+        </section>
+    </section>
+
+
 
     <nav class="navigationBar">
         <span class="logo1" id="scroll_to" data-link="section-0"><span class="logo_bold">Wesley</span> Naude</span>
@@ -216,11 +256,11 @@
 
             <div class="case-study3" style="background-color: #CF3A3E;">
                 <div class="case-study-content-conatainer" id="case-study-3-order">
-                    <h4 style="color: #fff; margin-bottom: 30px;">Red Door</h4>
+                    <h4 style="color: #fff; margin-bottom: 30px;" id="RedDoor">Red Door</h4> 
                     <p class="case-study-3-textbox">Red Door is an accommodation rental service,
                         allowing people to find their dream
                         accommodation.</p>
-                    <button class="secondary-Button" style="margin-top: 30px;">
+                    <button class="secondary-Button" style="margin-top: 30px;" onclick="openRedDoor()">
                         <span class="material-icons" style="margin-right: 10px;">
                             navigate_next
                         </span>
@@ -525,7 +565,15 @@
         }
 
         function openVacShield() {
+             document.getElementById("landingPage").style.opacity='0.25';
             document.getElementById("case-study-slideshow2").style.display='block';
+            document.getElementById("landingPage").style.position='fixed';
+            document.getElementById("footer").style.display='none';
+        }
+
+        function openRedDoor(){
+             document.getElementById("landingPage").style.opacity='0.25';
+            document.getElementById("case-study-slideshow3").style.display='block';
             document.getElementById("landingPage").style.position='fixed';
             document.getElementById("footer").style.display='none';
         }
@@ -534,6 +582,7 @@
         function closecasestudy(){
             document.getElementById("case-study-slideshow").style.display='none';
             document.getElementById("case-study-slideshow2").style.display='none';
+             document.getElementById("case-study-slideshow3").style.display='none';
             document.getElementById("landingPage").style.display='block';
             document.getElementById("landingPage").style.position='unset';
             document.getElementById("landingPage").style.opacity='unset';
