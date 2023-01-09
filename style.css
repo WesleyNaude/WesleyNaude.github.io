@@ -719,20 +719,22 @@ p {
 .contact-me-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    height: auto;
 }
 
 .contact-form-conatainer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
     grid-column-gap: 30px;
     margin-top: 30px;
+    height: auto;
 }
 
 .input-container-1,
 .input-container-2,
 .input-container-3,
 .input-container-4,
-.input-container-5 {
+.input-container-5{
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
@@ -740,6 +742,10 @@ p {
 
 .input-container-5 {
     grid-column: 1 / span 2;
+}
+
+.input-container-5 label {
+    margin-bottom: 12px;
 }
 
 .input-s {
@@ -910,6 +916,12 @@ p {
 }
 
 .case-study-slideshow{
+    display: none;
+    position: absolute;
+    z-index: 3000;
+}
+
+#case-study-slideshow2{
     display: none;
     position: absolute;
     z-index: 3000;

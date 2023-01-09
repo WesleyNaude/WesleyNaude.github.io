@@ -25,7 +25,7 @@
         </nav>
         <section class="case-study-showcase-container2">
             <div class="case-study-image-container2">
-                <img src="Images/TravelChap/Case study - project file_Cover Page.jpg">
+                <img src="Images/TravelChap/Case study - project file_Cover Page.jpg" id="TravelChap-START">
                 <img src="Images/TravelChap/Case study - project file_project Overview.jpg">
                 <img src="Images/TravelChap/Case study - project file_Project overview 2.jpg">
                 <img src="Images/TravelChap/Case study - project file_Table of Contents.jpg">
@@ -70,6 +70,52 @@
                 <img src="Images/TravelChap/Case study - project file_High-fidelity  Mockups 5.jpg">
                 <img src="Images/TravelChap/Case study - project file_Next steps.jpg">
                 <img src="Images/TravelChap/Case study - project file_Thank you.jpg">
+            </div>
+        </section>
+    </section>
+
+    <section class="case-study-slideshow" id="case-study-slideshow2">
+        <nav class="case-study-navigation-bar">
+            <button class="tertiary-button" id="scroll" data-link="VacShield" onclick="closecasestudy()" style="color: #fff;"><span class="material-icons" id="close-button-icon">
+                close
+                </span> Close</button>               
+        </nav>
+        <section class="case-study-showcase-container2">
+            <div class="case-study-image-container2">
+                <img src="Images/VacShield/Vac Shield - Case Study_Homepage.jpg" id="VacShield-START">
+                <img src="Images/VacShield/Vac Shield - Case Study_Project Overview.jpg">
+                <img src="Images/VacShield/Vac Shield - Case Study_Project Overview (2).jpg">
+                <img src="Images/VacShield/Vac Shield - Case Study_Project Overview (3).jpg">
+                <img src="Images/VacShield/Vac Shield - Case Study_User research- Summary.jpg">
+                <img src="Images/VacShield/Vac Shield - Case Study_Quantitative research.jpg">
+                <img src="Images/VacShield/Vac Shield - Case Study_Quantitative research (2).jpg"> 
+                <img src="Images/VacShield/Vac Shield - Case Study_Quantitative research (3).jpg">
+                <img src="Images/VacShield/Vac Shield - Case Study_Qualitative research.jpg">
+                <img src="Images/VacShield/Vac Shield - Case Study_User research- pain points.jpg">
+                <img src="Images/VacShield/Vac Shield - Case Study_User Personas.jpg">
+                <img src="Images/VacShield/Vac Shield - Case Study_User Personas (2).jpg">
+                <img src="Images/VacShield/Vac Shield - Case Study_User Journey Map.jpg">
+                <img src="Images/VacShield/Vac Shield - Case Study_User Flow.jpg">
+                <img src="Images/VacShield/Vac Shield - Case Study_Competitive Audit.jpg">
+                <img src="Images/VacShield/Vac Shield - Case Study_Competitive Audit (2).jpg">
+                <img src="Images/VacShield/Vac Shield - Case Study_How might we.jpg">
+                <img src="Images/VacShield/Vac Shield - Case Study_Crazy Eights.jpg">
+                <img src="Images/VacShield/Vac Shield - Case Study_Sitemap.jpg">
+                <img src="Images/VacShield/Vac Shield - Case Study_Sitemap 2.jpg">
+                <img src="Images/VacShield/Vac Shield - Case Study_Paper wireframes.jpg">
+                <img src="Images/VacShield/Vac Shield - Case Study_Digital Wireframes.jpg">
+                <img src="Images/VacShield/Vac Shield - Case Study_Usability- parameters.jpg"> 
+                <img src="Images/VacShield/Vac Shield - Case Study_Usability- findings.jpg">
+                <img src="Images/VacShield/Vac Shield - Case Study_Mockups-25.jpg">
+                <img src="Images/VacShield/Vac Shield - Case Study_Mockups-26.jpg">
+                <img src="Images/VacShield/Vac Shield - Case Study_Style Guide.jpg">
+                <img src="Images/VacShield/Vac Shield - Case Study_Mock-ups 1.jpg">
+                <img src="Images/VacShield/Vac Shield - Case Study_Accessability considerations.jpg">
+                <img src="Images/VacShield/Vac Shield - Case Study_Sitemap.jpg">
+                <img src="Images/VacShield/Vac Shield - Case Study_Responsive website.jpg">
+                <img src="Images/VacShield/Vac Shield - Case Study_Takeaways.jpg">
+                <img src="Images/VacShield/Vac Shield - Case Study_Next steps.jpg"> 
+                <img src="Images/VacShield/Vac Shield - Case Study_Let's connect.jpg">
             </div>
         </section>
     </section>
@@ -137,7 +183,7 @@
                         expose women to new experiences by making
                         it possible for them to easily travel anywhere in
                         South Africa safely.</p>
-                    <button class="secondary-Button" style="margin-top: 30px;" onclick="myFunction()" id="scroll_to" data-link="section-0">
+                    <button class="secondary-Button" style="margin-top: 30px;" onclick="myFunction()"  id="scroll2" data-link="TravelChap-START">
                         <span class="material-icons" style="margin-right: 10px;">
                             navigate_next
                         </span>
@@ -150,11 +196,11 @@
 
             <div class="case-study2" style="background-color: #3D6BD1;" id="case-study-2">
                 <div class="case-study-content-conatainer" id="case-study-2-order">
-                    <h4 style="color: #fff; margin-bottom: 30px;">VacShield</h4>
+                    <h4 style="color: #fff; margin-bottom: 30px;" id="VacShield">VacShield</h4>
                     <p class="case-study-2-textbox">Vac Shield is a digital tool designed to
                         help residents of South African communities
                         easily access various vaccinations.</p>
-                    <button class="secondary-Button" style="margin-top: 30px;">
+                    <button class="secondary-Button" style="margin-top: 30px;" onclick="openVacShield()" id="scroll2" data-link="VacShield-START">
                         <span class="material-icons" style="margin-right: 10px;">
                             navigate_next
                         </span>
@@ -398,7 +444,7 @@
                     </div>
 
                     <div class="input-container-5">
-                        <label style="margin-bottom: 12px;">Message</label>
+                        <label>Message</label>
                         <textarea class="input-l" placeholder="Write something..." type="text"></textarea>
                     </div>
                 </div>
@@ -475,15 +521,19 @@
             document.getElementById("landingPage").style.position='fixed';
             document.getElementById("case-study-slideshow").style.display='block';
             document.getElementById("footer").style.display='none';
-           
-
-            
-
-
+        
         }
+
+        function openVacShield() {
+            document.getElementById("case-study-slideshow2").style.display='block';
+            document.getElementById("landingPage").style.position='fixed';
+            document.getElementById("footer").style.display='none';
+        }
+
 
         function closecasestudy(){
             document.getElementById("case-study-slideshow").style.display='none';
+            document.getElementById("case-study-slideshow2").style.display='none';
             document.getElementById("landingPage").style.display='block';
             document.getElementById("landingPage").style.position='unset';
             document.getElementById("landingPage").style.opacity='unset';
@@ -505,6 +555,16 @@
             })
         })
     </script>
+
+<script>
+    const test2 = document.querySelectorAll("#scroll2");
+  test2.forEach((item) => {
+      item.addEventListener("click", () => {
+          const el = document.getElementById(item.getAttribute("data-link"));
+          el.scrollIntoView({block:"center" })
+      })
+  })
+</script>
 
 
 
