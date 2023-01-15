@@ -457,31 +457,11 @@ p {
     margin: 60px 0 0 0;
 }
 
-.case-study-1-textbox {
+.case-study-1-textbox, .case-study-2-textbox, .case-study-3-textbox, .case-study-4-textbox {
     max-width: 325px;
     height: auto;
     color: #fff;
 }
-
-
-.case-study-2-textbox {
-    width: 325px;
-    height: auto;
-    color: #fff;
-}
-
-
-.case-study-3-textbox {
-    width: 325px;
-    color: #fff;
-}
-
-
-.case-study-4-textbox {
-    width: 325px;
-    color: #fff;
-}
-
 
 
 .case-study-image-container {
@@ -491,7 +471,6 @@ p {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
 }
 
 .case-study-image2-container {
@@ -590,6 +569,7 @@ p {
     .case-study-3-textbox,
     .case-study-4-textbox {
         max-width: 300px;
+        height: auto;
 
     }
 
