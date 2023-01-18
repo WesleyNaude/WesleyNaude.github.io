@@ -190,6 +190,7 @@ p {
 }
 
 
+
 @media screen and (max-width:600px) {
 
     .logo1,
@@ -319,6 +320,10 @@ p {
     background-position: right top;
 }
 
+#hamburger-icon {
+    display: none;
+}
+
 
 /*Laptops and smaller screens*/
 
@@ -387,6 +392,12 @@ p {
         padding: 64px 5% 0 5%;
     }
 
+    #hamburger-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+
 }
 
 
@@ -424,6 +435,7 @@ p {
 
     }
 
+   
 
 
 
