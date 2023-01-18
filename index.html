@@ -177,10 +177,22 @@
                     Talk to me</button></li>
                     
         </div>
-        <span class="material-icons" id="hamburger-icon">
+        <!--Hamburger menu, only visible on mobile-->
+        <span class="material-icons" id="hamburger-icon" onclick="navigationMenu()">
             menu
             </span>
+    
     </nav>
+    <div id="navigation-menu-container">
+        <div id="navigation-menu-sub-container">
+            <div class="mobile-menu-close"><span class="material-icons" style="cursor: pointer;" onclick="closeMobilemenu()">
+                close
+                </span></div>
+            <a>Portfolio</a>
+            <a>Services</a>
+            <a>Contact me</a>
+        </div>
+    </div>
 
 
     <section class="landingPage" id="landingPage">
@@ -600,7 +612,13 @@
             document.getElementById("footer").style.display = 'grid';
         }
 
+        function navigationMenu(){
+            document.getElementById("navigation-menu-container").style.display='block';
+        }
 
+        function closeMobilemenu(){
+            document.getElementById("navigation-menu-container").style.display='none';
+        }
 
 
 
