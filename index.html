@@ -185,12 +185,27 @@
     </nav>
     <div id="navigation-menu-container">
         <div id="navigation-menu-sub-container">
-            <div class="mobile-menu-close"><span class="material-icons" style="cursor: pointer;" onclick="closeMobilemenu()">
+            <span class="mobile-menu-close"><span class="material-icons" style="cursor: pointer;" onclick="closeMobilemenu()">
                 close
-                </span></div>
-            <a data-link="section-1" id="scroll_to" onclick="closeMobilemenu()">Portfolio</a>
-            <a id="scroll_to" data-link="section-2" onclick="closeMobilemenu()">Services</a>
-            <a  id="scroll_to" data-link="section-3" onclick="closeMobilemenu()">Contact me</a>
+                </span></span>
+            <div>
+                <a data-link="section-1" id="scroll_to" onclick="closeMobilemenu()" style="cursor: pointer;">Portfolio</a>
+                <span class="material-icons">
+                    navigate_next
+                    </span>
+            </div>
+            <div>
+                <a id="scroll_to" data-link="section-2" onclick="closeMobilemenu()" style="cursor: pointer;">Services</a>
+                <span class="material-icons">
+                    navigate_next
+                    </span>
+            </div>
+            <div>
+                <a  id="scroll_to" data-link="section-3" onclick="closeMobilemenu()" style="cursor: pointer;">Talk to me</a>
+                <span class="material-icons">
+                    navigate_next
+                    </span>
+            </div>
         </div>
     </div>
 
