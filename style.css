@@ -25,7 +25,7 @@ input {
     font-family: 'Poppins', sans-serif;
     line-height: 21px;
     font-weight: 300; 
-    border-radius: 15px;
+   
 }
 
 button {
@@ -783,7 +783,7 @@ padding: 5%;
 .input-container-5 {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 12px;
 }
 
 .input-container-5 {
@@ -808,7 +808,6 @@ padding: 5%;
     font-family: 'Poppins', sans-serif;
     line-height: 21px;
     font-weight: 300;
-    border-radius: 15px;
 
 }
 
@@ -839,7 +838,7 @@ padding: 5%;
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        margin-top: 30px;
+        margin-top: 12px;
     }
 
 
