@@ -25,6 +25,7 @@ input {
     font-family: 'Poppins', sans-serif;
     line-height: 21px;
     font-weight: 300; 
+    border-radius: 15px;
 }
 
 button {
@@ -50,6 +51,7 @@ h1 {
     line-height: 120%;
     font-weight: 700;
     font-family: 'custom-font';
+    color: #181818;
 }
 
 h2 {
@@ -57,6 +59,7 @@ h2 {
     line-height: 27.08px;
     font-weight: 700;
     font-family: 'custom-font';
+    color: #181818;
 }
 
 h3 {
@@ -64,6 +67,7 @@ h3 {
     line-height: 24px;
     font-weight: 600;
     font-family: 'custom-font';
+    color: #181818;
 }
 
 h4 {
@@ -71,6 +75,7 @@ h4 {
     line-height: 34.81px;
     font-weight: 700;
     font-family: 'custom-font';
+    color: #181818;
 }
 
 h5 {
@@ -86,6 +91,7 @@ p {
     font-family: 'Poppins', sans-serif;
     line-height: 21px;
     font-weight: 300;
+    color: #181818;
 
 }
 
@@ -95,6 +101,7 @@ p {
     font-family: 'Poppins', sans-serif;
     line-height: 21px;
     cursor: pointer;
+    color: #181818;
 }
 
 .logo_bold {
@@ -102,6 +109,7 @@ p {
     font-family: 'Poppins', sans-serif;
     line-height: 21px;
     font-weight: 700;
+    color: #181818;
 }
 
 .navigationBar {
@@ -800,6 +808,7 @@ padding: 5%;
     font-family: 'Poppins', sans-serif;
     line-height: 21px;
     font-weight: 300;
+    border-radius: 15px;
 
 }
 
