@@ -813,7 +813,8 @@ padding: 5%;
 
 .contact-image-self {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+
 }
 
 @media screen and (max-width:1192px) {
@@ -821,6 +822,12 @@ padding: 5%;
         display: grid;
         grid-template-columns: 1fr;
     }
+
+    .contact-image-self {
+    display: none;
+
+}
+
 }
 
 @media screen and (max-width:720px) {
@@ -846,6 +853,11 @@ padding: 5%;
         font-size: 22px;
         font-weight: 700;
     }
+
+        .contact-image-self {
+    display: none;
+
+}
 }
 
 
