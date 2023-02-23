@@ -24,8 +24,8 @@ input {
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     line-height: 21px;
-    font-weight: 300; 
-   
+    font-weight: 300;
+
 }
 
 button {
@@ -51,7 +51,7 @@ h1 {
     line-height: 120%;
     font-weight: 700;
     font-family: 'custom-font';
-   
+
 }
 
 h2 {
@@ -59,7 +59,7 @@ h2 {
     line-height: 27.08px;
     font-weight: 700;
     font-family: 'custom-font';
-   
+
 }
 
 h3 {
@@ -67,7 +67,7 @@ h3 {
     line-height: 24px;
     font-weight: 600;
     font-family: 'custom-font';
-    
+
 }
 
 h4 {
@@ -75,7 +75,7 @@ h4 {
     line-height: 34.81px;
     font-weight: 700;
     font-family: 'custom-font';
-    
+
 }
 
 h5 {
@@ -91,7 +91,7 @@ p {
     font-family: 'Poppins', sans-serif;
     line-height: 21px;
     font-weight: 300;
-   
+
 
 }
 
@@ -101,7 +101,7 @@ p {
     font-family: 'Poppins', sans-serif;
     line-height: 21px;
     cursor: pointer;
-    
+
 }
 
 .logo_bold {
@@ -109,7 +109,7 @@ p {
     font-family: 'Poppins', sans-serif;
     line-height: 21px;
     font-weight: 700;
-    
+
 }
 
 .navigationBar {
@@ -123,33 +123,33 @@ p {
     background-color: #fff;
 }
 
-#navigation-menu-container{
+#navigation-menu-container {
     width: 100%;
     height: max-content;
     position: fixed;
     display: none;
     background-color: rgba(24, 24, 24, 0.75);
-    
-    
+
+
 }
 
-#navigation-menu-blackbackground{
-width: 75%;
-height: 100vh;
-background-color: #fff;
-box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+#navigation-menu-blackbackground {
+    width: 75%;
+    height: 100vh;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
 }
 
-#navigation-menu-sub-container{
-display: grid;
-grid-template-rows: 1fr 1fr 1fr 1fr;
-grid-row-gap: 12px;
-width: 100%;
-height: min-content;
-padding: 5%;
+#navigation-menu-sub-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 12px;
+    width: 100%;
+    height: min-content;
+    padding: 5%;
 }
 
-.mobile-menu-close{
+.mobile-menu-close {
     width: 100%;
     height: 64px;
     display: flex;
@@ -159,7 +159,7 @@ padding: 5%;
 #navigation-menu-sub-container div {
     display: flex;
     justify-content: space-between;
-    border-bottom:  thin solid #181818 ;
+    border-bottom: thin solid #181818;
     height: 100%;
     width: 100%;
     align-items: center;
@@ -167,7 +167,7 @@ padding: 5%;
 
 
 #navigation-menu-container li {
-   list-style: none;
+    list-style: none;
 }
 
 
@@ -489,7 +489,7 @@ padding: 5%;
 
     }
 
-   
+
 
 
 
@@ -523,7 +523,10 @@ padding: 5%;
     margin: 60px 0 0 0;
 }
 
-.case-study-1-textbox, .case-study-2-textbox, .case-study-3-textbox, .case-study-4-textbox {
+.case-study-1-textbox,
+.case-study-2-textbox,
+.case-study-3-textbox,
+.case-study-4-textbox {
     max-width: 325px;
     height: auto;
     color: #fff;
@@ -824,9 +827,9 @@ padding: 5%;
     }
 
     .contact-image-self {
-    display: none;
+        display: none;
 
-}
+    }
 
 }
 
@@ -854,10 +857,10 @@ padding: 5%;
         font-weight: 700;
     }
 
-        .contact-image-self {
-    display: none;
+    .contact-image-self {
+        display: none;
 
-}
+    }
 }
 
 
