@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Scanner</title>
+    <link rel="stylesheet" href="scanner.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script>
+</head>
+<body>
+    <div id="scanner-view">
+        <video id="video" autoplay playsinline></video>
+        <canvas id="canvas" style="display:none;"></canvas>
+        <div id="overlay"></div>
+        <button id="capture">Capture</button>
+    </div>
+    <div id="review" style="display:none;">
+        <div id="pages"></div>
+        <button id="retake">Retake</button>
+        <button id="add">Add Another Page</button>
+        <button id="finish">Finish</button>
+    </div>
+    <script src="scanner.js"></script>
+</body>
+</html>

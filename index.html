@@ -549,6 +549,14 @@
 
     </section>
 
+    <section id="doc-scan" style="text-align:center; margin:80px 0;">
+        <h2>Scan Documents</h2>
+        <p>Use your phone to scan documents and send them here.</p>
+        <div id="qr"></div>
+        <div id="scan-status"></div>
+        <button id="start-scan" class="primary-Button" style="margin-top:20px;">Start Scan</button>
+    </section>
+
     <footer class="footer" id="footer">
         <div class="footer-company">
             <h5>Company</h5>
@@ -665,6 +673,33 @@
                 el.scrollIntoView({ block: "center" })
             })
         })
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+    <script>
+        const startScanBtn = document.getElementById('start-scan');
+        const qrEl = document.getElementById('qr');
+        const statusEl = document.getElementById('scan-status');
+        let sessionId;
+
+        function pollForResult() {
+            fetch('scans/' + sessionId + '.pdf', { method: 'HEAD' })
+                .then(resp => {
+                    if (resp.ok) {
+                        statusEl.innerHTML = '<a href="scans/' + sessionId + '.pdf" target="_blank">Document received - open</a>';
+                    } else {
+                        setTimeout(pollForResult, 2000);
+                    }
+                })
+                .catch(() => setTimeout(pollForResult, 2000));
+        }
+
+        startScanBtn.addEventListener('click', () => {
+            sessionId = 's' + Date.now().toString(36);
+            new QRious({ element: qrEl, value: 'scanner.html?session=' + sessionId, size: 200 });
+            statusEl.innerText = 'Waiting for scan...';
+            pollForResult();
+        });
     </script>
 
 
